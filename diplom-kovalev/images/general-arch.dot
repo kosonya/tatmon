@@ -1,0 +1,12 @@
+digraph G{
+	andr [label = "Мобильное приложение"]
+	serv [label = "Сервер позиционирования"]
+	db [label = "База данных"]
+	client [label = "Клиент"]
+
+	andr -> serv [label = "UDP: GPS, GSM"];
+	serv -> db [dir = "both"];
+	client -> serv [label = "TCP: запрос"];
+	serv -> client [label = "TCP: ответ"];
+
+}

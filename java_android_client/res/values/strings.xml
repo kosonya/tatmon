@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, SomeTest!</string>
+    <string name="app_name">TATMon</string>
+    <string name="start_button">Start</string>
+    <string name="gps_chkbutton">GPS</string>
+    <string name="default_host_text">vkphoto.auditory.ru:31415</string>
+    <string name="dev_id_label">Device ID:</string>
+    <string name="dev_id">1</string>
+    <string name="gps_text">GPS here</string>
+    <string name="exceptions_text">Exceptions</string>
+    <string name="gsm_text">GSM here</string>
+    <string name="inet_chkbox">UDP</string>
+    <string name="sec_chkbox">Secure</string>
+</resources>

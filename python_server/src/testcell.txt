@@ -1,0 +1,10 @@
+{"GSM":{"cellcount":6, "cells":[{"CID":41526, "Psc":-1, "RSSI":21, "type":"EDGE"}, {"CID":32778, "Psc":-1, "RSSI":28, "type":"EDGE"}, {"CID":32777,        "Psc":-1, "RSSI":20, "type":"EDGE"}, {"CID":12056, "Psc":-1, "RSSI":18, "type":"EDGE"}, {"CID":14296, "Psc":-1, "RSSI":20, "type":"EDGE"}, {"CID":         32779, "Psc":-1, "RSSI":15, "type":"EDGE"}]}, "GPS":{"lng":37.647523283958435, "ltd":55.7536518573761, "acc":16.0}}
+
+
+
+
+ans: 143
+
+
+true: 165.536102717058
+

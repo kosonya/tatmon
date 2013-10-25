@@ -1,0 +1,214 @@
+\begin{thebibliography}{10}
+
+\bibitem{gnufdl}
+Free Software Foundation~Inc <http://www.gnu.org/copyleft/fdl.html>.
+\newblock Gnu free documentation license, November 2008.
+
+\bibitem{ruwikilbs}
+Location-based~service Википедия.
+\newblock http://ru.wikipedia.org/wiki/location-based\_service.
+
+\bibitem{enwikivetrasy}
+Vehicle tracking~system Wikipedia.
+\newblock \\*http://en.wikipedia.org/wiki/vehicle\_tracking\_system.
+
+\bibitem{itsrapidbus}
+Transport Canada: Intelligent Transportation~Systems in~98 B-Line Rapid Bus
+  Service: Advanced Technology~at Work.
+\newblock
+  http://www.tc.gc.ca/eng/programs/environment-utsp-intelligenttransportationsystems-945.htm.
+
+\bibitem{spbtrans}
+Хабрахабр: Spb~Transport Online.
+\newblock http://habrahabr.ru/post/143229/.
+
+\bibitem{novosib}
+Хабрахабр: Триумф геопозиционирования
+  (ГЛОНАСС+GPS)~общественного транспорта.
+\newblock http://habrahabr.ru/post/77259/.
+
+\bibitem{yakazan}
+Маршруты маршрутки и автобусы в новых
+  Картах~для Android.
+\newblock http://clubs.ya.ru/company/replies.xml?item\_no=41137.
+
+\bibitem{umnikwinners}
+http://miem.edu.ru/news/Призёры-научно-технической-конференции-студентов-аспирантов-и-молодых-специалистов-МИЭМ-2011.html.
+
+\bibitem{enwikigps}
+Wikipedia: GPS.
+\newblock http://en.wikipedia.org/wiki/global\_positioning\_system.
+
+\bibitem{gsmclockcalibr}
+Portable~Calibration of~GSM Base Station~Clocks.
+\newblock \\* http://www.spectracomcorp.com/desktopmodules/bring2mind/dmx/\\*
+  download.aspx?entryid=434\&command=core\_download\&\\*method=attachment\&portalid=0\&tabid=59.
+
+\bibitem{androidnecelinf}
+NeighboringCellInfo |~Android Developers.
+\newblock
+  \\*http://developer.android.com/reference/android/telephony/neighboringcellinfo.html.
+
+\bibitem{enwikicellsite}
+Cell~site Wikipedia.
+\newblock http://en.wikipedia.org/wiki/cell\_site.
+
+\bibitem{gsmts}
+Digital cellular telecommunications~system (Phase 2+) Radio~transmission and
+  reception (GSM~05.05).
+\newblock
+  http://www.etsi.org/deliver/etsi\_gts/05/0505/05.00.00\_60/\\*gsmts\_0505v050000p.pdf.
+\newblock с.с. 10--11.
+
+\bibitem{enwikidbm}
+Wikipedia: dBm.
+\newblock http://en.wikipedia.org/wiki/dbm.
+
+\bibitem{decodcells}
+Мегафон лидирует в большой тройке по
+  количеству базовых станций~и числу.
+\newblock http://decod.ru/news/a-74.html.
+
+\bibitem{geolocationapidata}
+Яндекс.Локатор Руководство разработчика:
+  Данные для~определения местоположения.
+\newblock http://api.yandex.ru/locator/doc/dg/api/geolocation-api\_data.xml.
+
+\bibitem{googlocsource}
+Location source and accuracy Google Maps~for Mobile~Help.
+\newblock http://support.google.com/gmm/bin/answer.py?hl=en\&answer=81873.
+
+\bibitem{talberg}
+Espen Talberg.
+\newblock Positioning with cell id.
+\newblock (Institue of Informatics Ostfold Universiry College, Halden, Norway)
+  http://mobapp.hiof.no/wp-content/uploads/talberg06pwc.pdf с.с. 16--19.
+
+\bibitem{yaloceula}
+Пользовательское~соглашение
+  Яндекс.Локатор.
+\newblock http://api.yandex.ru/locator/eula.xml.
+
+\bibitem{yageloc}
+Яндекс.Локатор Руководство
+  разработчика:~Определение
+  местоположения.
+\newblock http://api.yandex.ru/locator/doc/dg/concepts/geolocation.xml.
+
+\bibitem{enwikiols}
+Wikipedia:~Least Squares.
+\newblock http://en.wikipedia.org/wiki/least\_squares.
+
+\bibitem{ruwikimostram}
+Википедия:~Московский трамвай.
+\newblock \\*http://ru.wikipedia.org/wiki/Московский\_трамвай.
+
+\bibitem{mahalanobis}
+Wikipedia:~Mahalanobis distance.
+\newblock \\*http://en.wikipedia.org/wiki/mahalanobis\_distance.
+
+\bibitem{akinator}
+Янгель Б.К.
+\newblock Байесовский подход и Акинатор --
+  Спецкурс "Байесовские методы машинного
+  обучения".
+\newblock
+  http://www.machinelearning.ru/wiki/images/7/78/BayesML-2010-Yangel-Akinator.pdf.
+
+\bibitem{androidlocman}
+Location~Manager Android~Developers.
+\newblock
+  \\*http://developer.android.com/reference/android/location/locationmanager.html.
+
+\bibitem{enwikidalvik}
+Wikipedia: Dalvik.
+\newblock \\*http://en.wikipedia.org/wiki/dalvik\_(software).
+
+\bibitem{androidsdk}
+Android Developers.
+\newblock http://developer.android.com/index.html.
+
+\bibitem{numpy}
+Scientific computing tools~for python.
+\newblock http://numpy.scipy.org/.
+
+\bibitem{mysqldb}
+MySQLdb~User's Guide.
+\newblock http://mysql-python.sourceforge.net/mysqldb.html.
+
+\bibitem{vim}
+vim.
+\newblock http://www.vim.org/.
+
+\bibitem{pygame}
+Pygame.
+\newblock http://www.pygame.org/news.html.
+
+\bibitem{recursion}
+Максим Ковалев.
+\newblock Рекурсия.
+\newblock http://wiki.auditory.ru/Рекурсия.
+
+\bibitem{latex}
+LaTeX –~A document~preparation system.
+\newblock http://www.latex-project.org/.
+
+\bibitem{diplatex}
+Как оформить диплом~в LaTeX?
+\newblock \\*http://mydebianblog.blogspot.com/2008/11/latex.html.
+
+\bibitem{jabref}
+JabRef reference manager.
+\newblock http://jabref.sourceforge.net/.
+
+\bibitem{graphviz}
+Graphviz Graph~Visualization Software.
+\newblock http://www.graphviz.org/.
+
+\bibitem{octave}
+GNU Octave.
+\newblock http://www.gnu.org/software/octave/.
+
+\bibitem{make}
+GNU Make.
+\newblock http://www.gnu.org/software/make/.
+
+\bibitem{enwikiosh}
+Wikipedia:~Occupational safety and health.
+\newblock \\*http://en.wikipedia.org/wiki/occupational\_safety\_and\_health.
+
+\bibitem{enwikimobbing}
+Wikipedia: Mobbing.
+\newblock http://en.wikipedia.org/wiki/mobbing.
+
+\bibitem{enwikiburnout}
+Wikipedia: Burnout.
+\newblock http://en.wikipedia.org/wiki/burnout\_(psychology).
+
+\bibitem{4chan}
+How Society~Rejected Men, Created 4chan, and Anonymous.
+\newblock
+  http://www.inmalafide.com/blog/2011/03/09/how-society-rejected-men-and-created-4chan-and-anonymous/.
+
+\bibitem{sanpin}
+ГИГИЕНИЧЕСКИЕ ТРЕБОВАНИЯ К ПЕРСОНАЛЬНЫМ
+  ЭВМ И ОРГАНИЗАЦИИ РАБОТЫ (САНПИН
+  2.2.2/2.4.1340-03).
+
+\bibitem{gsl}
+GNU~Scientific Library.
+\newblock \\*http://www.gnu.org/software/gsl/.
+
+\bibitem{triggersyntax}
+MySQL 5.0 Reference Manual~Trigger Syntax.
+\newblock \\*http://dev.mysql.com/doc/refman/5.0/en/trigger-syntax.html.
+
+\bibitem{googleearth}
+Google Earth.
+\newblock \\*http://www.google.com/earth/index.html.
+
+\bibitem{enwikifairuse}
+Wikipedia:~Fair use.
+\newblock \\*http://en.wikipedia.org/wiki/fair\_use.
+
+\end{thebibliography}

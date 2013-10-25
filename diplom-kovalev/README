@@ -1,0 +1,8 @@
+Это диплом Максима Ковалева.
+Он хороший, и он неистово написан в vim.
+Чтобы его собрать, надо:
+	1. Перейти на Ubuntu.
+	2. sudo apt-get install tex-common texlive-base texlive-base-bin texlive-common texlive-doc-base texlive-fonts-recommended texlive-lang-cyrillic texlive-latex-base texlive-latex-recommended texlive-latex-extra bibtool graphviz inkscape
+	3. make
+Получится diplom-kovalev.pdf
+Чтобы убрать бардак -- make clean

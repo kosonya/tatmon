@@ -1,0 +1,62 @@
++CENG:<mode> 
+[+CENG: <cell>,”<arfcn>,<rxl>,<rxq>,<mcc>,<mnc>,<bsic>,<cellid>,< rla
+>,< txp >” 
+<CR><LF>+CENG: <cell>,”<arfcn>,<rxl>,<bsic>”
+
+ARFCN - радиоканал
+BSIC - base station identity code
+RXQ - Received Baseband Converted Signal Quality качество принятого сигнала, преобразованного из полосы частот исходного сигнала (Bit Error Rate?)
+RXL - Rx-level is the strength of the signal in the GSM technology. the range of Rx-level is between -55 to -110.
+mcc - mobile country code
+mnc - mobile network code
+rla - Radio Terminal Load Adapter адаптер нагрузки радиотерминала
+txp - Transmit Power
+
+
+Parameters 
+<mode> 0 switch off engineering mode  
+   1 switch on engineering mode 
+   2 switch on engineering mode, and activate the 
+unsolicited reporting of network information. 
+<cell>   0 the serving cell 
+   1-6 the index of the neighbouring cell. 
+<arfcn>  absolute radio frequency channel number. 
+<rxl>  receive level. 
+<rxq>  receive quality. 
+<mcc>  mobile country code. 
+<mnc>  mobile network code. 
+<bsic>  base station identity code. 
+<cellid>  cell id. 
+<rla>  receive level access minimum. 
+<txp>  transmit power maximum CCCH.
+
+AT+CENG=2,1
+
++CENG: 0,"0083,13,7,???,??,??,????,??,??"
+
++CENG: 1,"0773,04,45,ca5c"
+
++CENG: 2,"????,00,??,????"
+
++CENG: 3,"????,00,??,????"
+
++CENG: 4,"????,00,??,????"
+
++CENG: 5,"????,00,??,????"
+
++CENG: 6,"????,00,??,????"
+
+
++CENG: 0,"0089,49,0,250,01,12,ca5a,05,05"
+                                                  
++CENG: 1,"0083,35,55,ca59"
+
++CENG: 2,"0007,34,18,0123"
+                                                   
++CENG: 3,"0121,31,40,ca5b"
+                                                   
++CENG: 4,"0785,30,48,ca5d"
+                                                                               
++CENG: 5,"0773,30,45,ca5c" 
+
++CENG: 6,"0006,26,??,????" 

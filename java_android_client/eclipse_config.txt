@@ -1,0 +1,6 @@
+Project name:		java_android_client
+Build target:		Android 1.5
+Application name: 	TAT monitoring client
+Package name: 		com.theateam.tatclient
+Create activity:	main
+Min SDK Version:	3

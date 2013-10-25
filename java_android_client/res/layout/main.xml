@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:orientation="vertical">
+    <EditText android:layout_height="wrap_content" android:id="@+id/editText1" android:text="@string/default_host_text" android:layout_width="wrap_content"></EditText>
+    <LinearLayout android:id="@+id/linearLayout3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dev_id_label"></TextView>
+        <EditText android:text="@string/dev_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/did_EditText"></EditText>
+    </LinearLayout>
+    <TableLayout android:layout_height="wrap_content" android:id="@+id/tableLayout1" android:layout_width="fill_parent">
+        <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <CheckBox android:layout_height="wrap_content" android:text="@string/gps_chkbutton" android:layout_width="wrap_content" android:id="@+id/gps_checkBox"></CheckBox>
+            <CheckBox android:text="@string/inet_chkbox" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/inet_checkBox"></CheckBox>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <CheckBox android:layout_height="wrap_content" android:text="@string/sec_chkbox" android:layout_width="wrap_content" android:id="@+id/sec_checkBox"></CheckBox>
+            <Button android:layout_height="wrap_content" android:text="@string/start_button" android:id="@+id/button1" android:layout_width="wrap_content"></Button>
+        </TableRow>
+    </TableLayout>
+<CheckedTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/gps_TextView" android:text="@string/gps_text"></CheckedTextView>
+<TextView android:id="@+id/exceptions_TextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/exceptions_text"></TextView>
+<TextView android:id="@+id/gsm_TextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gsm_text"></TextView>
+</LinearLayout>

@@ -1,0 +1,22 @@
+sim508 - pwr key порт
+TX0 (UART0) - GSM
+TX2 (UART2) - GPS (перемычка: A/B)
+
+GPIO general prupose i/o - порты
+
+#GPS
+stty -F /dev/ttyS2 4800 #перемычка в положениии B, не забудь включить!
+cat /dev/ttyS2
+
+#GSM 
+stty -F /dev/ttyS1 115200 
+stty -F /dev/ttyS1 -echo
+cat /dev/ttyS1 >> ololo ^Z
+bg
+echo "at" >> /dev/ttyS1
+
+# сначала вируатльную кнопку нажать, потом отпустить
+echo "1" >> /dev/sim508 # power key ON
+echo "0" >> /dev/sim508  # power key off
+# подождать секунду.
+cat /dev/ttyS1

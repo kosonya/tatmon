@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: diplom-kovalev.aux
+The style file: unsrt.bst
+Database file #1: biblio.bib
+Warning--entry type for "talberg" isn't style-file defined
+--line 250 of file biblio.bib
+Warning--entry type for "akinator" isn't style-file defined
+--line 280 of file biblio.bib
+Warning--entry type for "recursion" isn't style-file defined
+--line 311 of file biblio.bib
+You've used 47 entries,
+            1791 wiz_defined-function locations,
+            589 strings with 8964 characters,
+and the built_in function-call counts, 5457 in all, are:
+= -- 338
+> -- 201
+< -- 0
++ -- 97
+- -- 50
+* -- 16
+:= -- 767
+add.period$ -- 96
+call.type$ -- 47
+change.case$ -- 47
+chr.to.int$ -- 0
+cite$ -- 47
+duplicate$ -- 235
+empty$ -- 847
+format.name$ -- 50
+if$ -- 1291
+int.to.chr$ -- 0
+int.to.str$ -- 47
+missing$ -- 0
+newline$ -- 193
+num.names$ -- 45
+pop$ -- 251
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 314
+stack$ -- 0
+substring$ -- 0
+swap$ -- 47
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 45
+width$ -- 49
+write$ -- 336
+(There were 3 warnings)
