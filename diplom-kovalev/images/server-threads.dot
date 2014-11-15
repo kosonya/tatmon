@@ -1,15 +1,15 @@
 digraph G{
-	main [label = "Главный поток"]
-	tcp [label = "Поток ответов клиенту"]
+	main [label = "Main thread"]
+	tcp [label = "Client response thread"]
 	tcpsocket [label = "TCP socket" shape = "box"]
 	udpsocket [label = "UDP socket" shape = "box"]
 	mysql [label = "MySQL" shape = "box"]
 
 
-	udpsocket -> main [label = "Данные об RSSI"];
+	udpsocket -> main [label = "RSSI data"];
 	main -> mysql [dir = "both"];
 	main -> tcp [label = "Queue"];
-	tcp -> tcpsocket [label = "Запрос данных позиционирования"];
-	tcpsocket -> tcp [label = "Ответ"];
+	tcp -> tcpsocket [label = "Positioning data request"];
+	tcpsocket -> tcp [label = "Response"];
 
 }

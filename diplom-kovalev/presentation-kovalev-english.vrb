@@ -1,0 +1,15 @@
+\frametitle {Normal equations}
+\begin{equation}
+self.theta = (self.X^\intercal \cdot self.X)^{+} \cdot self.X^\intercal \cdot self.Y
+\nonumber
+\label{eq:solve-theta}
+\end{equation}
+\begin{lstlisting}
+def solve_theta(self):
+    self.theta = numpy.transpose(self.X)
+    self.theta = numpy.dot(self.theta, self.X)
+    self.theta = numpy.linalg.pinv(self.theta)
+    self.theta = numpy.dot(self.theta,\
+        numpy.transpose(self.X))
+    self.theta = numpy.dot(self.theta, self.Y)
+\end{lstlisting}

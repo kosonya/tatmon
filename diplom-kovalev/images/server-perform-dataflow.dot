@@ -1,5 +1,5 @@
 digraph G{
-	main [label = "Главный модуль"]
+	main [label = "Main module"]
 	validator [label = "validator"]
 	transroute [label = "TransRoute"]
 	dbconn [label = "DBConn"]
@@ -30,8 +30,8 @@ digraph G{
 
 	main -> queue [label = "JSON"];
 	queue -> frontend [label = "JSON"];
-	frontend -> tcpsocket [label = "Ответ"];
-	tcpsocket -> frontend [label = "Запрос"];
+	frontend -> tcpsocket [label = "Response"];
+	tcpsocket -> frontend [label = "Request"];
 
 
 }
