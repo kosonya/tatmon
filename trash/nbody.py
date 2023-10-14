@@ -46,10 +46,16 @@ def main():
 	pygame.display.set_caption(caption)
 	clock = pygame.time.Clock()
 
+	bodies = [(100, 100), (300, 300), (100, 300)]
+	
+	velocities = [(1, 1), (-1, -1), (-1, 1)]
+
 	while True:
 		for event in pygame.event.get():
 			if event.type == pygame.QUIT:
 				sys.exit(0)
+
+		accelerations = None
 		fps = clock.get_fps()
 		pygame.display.flip()
 		clock.tick(default_framerate)
