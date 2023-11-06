@@ -1,0 +1,27 @@
+digraph G{
+	main [label = "Главный модуль"]
+	validator [label = "validator"]
+	transroute [label = "TransRoute"]
+	dbconn [label = "DBConn"]
+	frontend [label = "FrontEnd"]
+
+	tcpsocket [label = "socket (TCP)" shape = "box"]
+	udpsocket [label = "socket (UDP)" shape = "box"]
+	mysqldb [label = "MySQLdb" shape = "box"]
+	queue [label = "Queue" shape = "box"]
+
+	udpsocket -> main [label = "JSON"];
+	main -> validator [label = "JSON" dir = "both"];
+	main -> transroute [label = "Lon, Lat"];
+	transroute -> main [label = "Dist, closest"];
+	main -> dbconn [label = "JSON"];
+	dbconn -> transroute [label = "Lon, Lat"];
+	transroute -> dbconn [label = "Dist"];
+	dbconn -> mysqldb [label = "Dist, Lon, Lat, RSSI, CID"];
+	main -> queue [label = "JSON"];
+	queue -> frontend [label = "JSON"];
+	frontend -> tcpsocket [label = "Ответ"];
+	tcpsocket -> frontend [label = "Запрос"];
+
+
+}
